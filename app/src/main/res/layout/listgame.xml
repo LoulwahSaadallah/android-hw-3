@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageformula"
+        android:layout_width="113dp"
+        android:layout_height="108dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="301dp"
+        android:layout_marginBottom="620dp"
+        app:srcCompat="@drawable/formula1" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="121dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="684dp"
+        android:text="Formula 1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="65dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="625dp"
+        android:text="Price"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/priceformula1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="630dp"
+        android:text="2.0"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageViewdelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="624dp"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+</RelativeLayout>
